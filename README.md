@@ -1,18 +1,28 @@
-# .
+# Digitus Case
 
-This template should help get you started developing with Vue 3 in Vite.
+Welcome to the Digitus Case project! This project is dedicated to implementing a design use case for Digitus, showcasing modern web development practices.
 
-## Recommended IDE Setup
+## Table of Contents
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- [Technologies](#technologies)
+- [Project Setup](#project-setup)
+    - [Compile and Hot-Reload for Development](#compile-and-hot-reload-for-development)
+    - [Type-Check, Compile and Minify for Production](#type-check-compile-and-minify-for-production)
+    - [Run Unit Tests with Vitest](#run-unit-tests-with-vitest)
+    - [Run End-to-End Tests with Cypress](#run-end-to-end-tests-with-cypress)
+    - [Lint with ESLint](#lint-with-eslint)
+- [Commit Tag Meanings](#commit-tag-meanings)
+- [Change Log](#change-log)
+- [License](#license)
 
-## Type Support for `.vue` Imports in TS
+## Technologies
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+- Vue 3
+- Vite
+- TypeScript
+- Tailwind CSS
+- Cypress
+- Vitest
 
 ## Project Setup
 
@@ -59,3 +69,29 @@ npm run test:e2e
 ```sh
 npm run lint
 ```
+
+## Commit Tag Meanings
+
+Commit tags convey the nature of changes made in the codebase. Below are common commit tags and their meanings:
+
+| Tag        | Description                                          | Example Commit Message                         |
+|------------|------------------------------------------------------|------------------------------------------------|
+| [feat]     | New feature or significant enhancement               | `[feat] Implement user authentication`         |
+| [fix]      | Bug fix or correction to existing functionality      | `[fix] Resolve issue with user registration`   |
+| [chore]    | Routine tasks, maintenance, or tooling changes       | `[chore] Update dependencies`                  |
+| [docs]     | Changes or additions to documentation                | `[docs] Update installation guide`             |
+| [style]    | Code style changes                                   | `[style] Format code according to style guide` |
+| [refactor] | Code restructuring or optimization                   | `[refactor] Simplify user profile rendering`   |
+| [test]     | Adding or modifying tests                            | `[test] Add unit tests for authentication`     |
+| [ci]       | Changes to continuous integration (CI) configuration | `[ci] Update Travis CI configuration`          |
+| [build]    | Changes affecting build system or dependencies       | `[build] Upgrade webpack to version 5`         |
+| [perf]     | Performance improvements or optimizations            | `[perf] Optimize database queries`             |
+
+
+## Change Log
+
+All significant updates to this project will be meticulously documented in this [log](CHANGELOG.md).
+
+## License
+
+This project is open-source and is available under the [MIT License](LICENSE).
