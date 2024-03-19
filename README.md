@@ -2,6 +2,14 @@
 
 Welcome to the Digitus Case project! This project is dedicated to implementing a design use case for Digitus, showcasing modern web development practices.
 
+![Node Version](https://img.shields.io/badge/node-v20-green)
+[![Coverage](https://codecov.io/github/abdullahkabakk/digitus-case/graph/badge.svg?token=43E2JP0SON)](https://codecov.io/github/abdullahkabakk/digitus-case)
+[![DeepScan Grade](https://deepscan.io/api/teams/23481/projects/26769/branches/853377/badge/grade.svg)](https://deepscan.io/dashboard#view=project&tid=23481&pid=26769&bid=853377)
+[![Build Status](https://github.com/abdullahkabakk/digitus-case/actions/workflows/deploy.yml/badge.svg)](https://github.com/abdullahkabakk/digitus-case/actions/workflows/deploy.yml)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/c5383699-df08-424e-bd8f-24719714edbf/deploy-status)](https://app.netlify.com/sites/digitus/deploys)
+![Known Vulnerabilities](https://snyk.io/test/github/abdullahkabakk/digitus-case/badge.svg)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/abdullahkabakk/url-shortener/blob/main/LICENSE)
+
 ## Table of Contents
 
 - [Technologies](#technologies)

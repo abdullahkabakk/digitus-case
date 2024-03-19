@@ -4,6 +4,7 @@ import { describe, beforeEach, it, expect } from 'vitest'
 import type { User } from '@/types/user'
 import { mockProfileData } from '@/utils/mockProfile'
 import { mockNotifications } from '@/utils/mockNotifications'
+import { mockSuggestedPeople } from '@/utils/suggestedPeople'
 
 describe('useProfileStore', () => {
   beforeEach(() => {
@@ -41,5 +42,17 @@ describe('useProfileStore', () => {
     // Check if initial state is correct
     expect(profileStore.getUser).toEqual({} as User)
     expect(profileStore.getNotifications).toEqual([])
+    expect(profileStore.getSuggestedPeople).toEqual([])
+  })
+
+  it('fetches suggested people', async () => {
+    // Access the store
+    const profileStore = useProfileStore()
+
+    // Call fetchSuggestedPeople action
+    await profileStore.fetchSuggestedPeople()
+
+    // Check if suggested people data is correctly set
+    expect(profileStore.getSuggestedPeople).toEqual(mockSuggestedPeople)
   })
 })

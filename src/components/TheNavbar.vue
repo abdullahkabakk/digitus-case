@@ -37,7 +37,7 @@ const toggleSections = () => (showSections.value = !showSections.value)
 
 <template>
   <nav
-    class="w-full max-w-screen-2xl mx-auto py-2 flex flex-col md:flex-row md:justify-between md:items-center"
+    class="w-full max-w-screen-2xl mx-auto py-2 px-4 flex flex-col md:flex-row md:justify-between md:items-center"
   >
     <div class="flex">
       <!-- Logo -->
@@ -68,8 +68,8 @@ const toggleSections = () => (showSections.value = !showSections.value)
 
     <!-- Right Section: Search, Notifications, Profile -->
     <div
-      class="md:flex items-center flex-row divide-x-2 space-x-5 my-3 md:my-auto"
-      :class="{ hidden: !showSections, 'md:flex': true }"
+      class="hidden md:flex items-center flex-row divide-x-2 space-x-5 my-3 md:my-auto"
+      :class="{ 'md:flex': true }"
     >
       <!-- Search Button -->
       <button>
