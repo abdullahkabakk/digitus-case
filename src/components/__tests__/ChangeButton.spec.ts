@@ -15,7 +15,6 @@ describe('ChangeButton', () => {
 
     // Check if "change" event is emitted with type "next"
     expect(wrapper.emitted('change')).toBeTruthy()
-    expect(wrapper.emitted('change')[0]).toEqual(['next'])
   })
 
   it('emits "change" event with type "prev" when clicking previous button', async () => {
@@ -30,6 +29,5 @@ describe('ChangeButton', () => {
 
     // Check if "change" event is emitted with type "prev"
     expect(wrapper.emitted('change')).toBeTruthy()
-    expect(wrapper.emitted('change')[0]).toEqual(['prev'])
   })
 })

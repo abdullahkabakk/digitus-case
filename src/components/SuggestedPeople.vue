@@ -3,7 +3,7 @@
   <div class="bg-[#DFE6E9] w-full mt-5 flex flex-col rounded-lg p-4 relative shadow-2xl">
     <!-- Navigation Buttons -->
     <div v-for="(val, key) in ['prev', 'next']" :key="key">
-      <ChangeButton :type="val" @change="changeUser" />
+      <ChangeButton :type="val as ChangeType" @change="changeUser" />
     </div>
 
     <!-- Header -->
@@ -28,6 +28,7 @@ import { mockSuggestedPeople } from '@/utils/suggestedPeople'
 import TheHeader from '@/components/suggestedPeople/TheHeader.vue'
 import MemberCard from '@/components/suggestedPeople/MemberCard.vue'
 import ChangeButton from '@/components/suggestedPeople/ChangeButton.vue'
+type ChangeType = 'next' | 'prev'
 
 // Reactive variables
 const currentIndex = ref(0)

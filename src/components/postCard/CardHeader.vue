@@ -23,10 +23,10 @@ import { Icon } from '@iconify/vue'
 import { computed } from 'vue'
 
 const { is_sponsored, is_doctor } = defineProps<{
-  is_doctor: boolean
+  is_doctor?: boolean
   picture: string
   name: string
-  profession: string
+  profession?: string
   is_sponsored: boolean
 }>()
 
