@@ -1,6 +1,12 @@
 # Changelog
 All significant updates to this project will be meticulously documented in this log.
 
+## 0.2.0 - 20-03-2024
+
+### Added
+
+- **Write Post**: A new feature has been added to the website to allow users to write posts.
+
 ## 0.1.0 - 20-03-2024
 
 ### Added
