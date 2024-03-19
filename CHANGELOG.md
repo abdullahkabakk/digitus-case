@@ -1,6 +1,12 @@
 # Changelog
 All significant updates to this project will be meticulously documented in this log.
 
+## 0.3.0 - 20-03-2024
+
+### Added
+
+- **Suggested Posts**: A new section inside posts has been added to suggest posts to read.
+
 ## 0.2.0 - 20-03-2024
 
 ### Added
