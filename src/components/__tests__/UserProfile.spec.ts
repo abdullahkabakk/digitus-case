@@ -7,7 +7,7 @@ import { type User } from '../../types/user'
 // Define a mock user object for testing
 const mockUser: User = {
   name: 'John Doe',
-  title: 'Software Engineer',
+  profession: 'Software Engineer',
   picture: 'https://example.com/profile.jpg'
 }
 
