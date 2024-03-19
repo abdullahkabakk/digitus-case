@@ -1,6 +1,12 @@
 # Changelog
 All significant updates to this project will be meticulously documented in this log.
 
+## 0.4.0 - 20-03-2024
+
+### Added
+
+- **Events**: A new feature has been added to the website to allow users see events.
+
 ## 0.3.0 - 20-03-2024
 
 ### Added
